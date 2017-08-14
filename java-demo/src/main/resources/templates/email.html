@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<TABLE border="1px" style="border-collapse: collapse;">
+    <TR>
+        <td nowrap="nowarp" style="width:80px;" class="date">日期</td>
+        <td nowrap="nowarp" style="width:120px;" class="head">UV</td>
+    </TR>
+    #foreach( $data in $uVBean )
+    <TR>
+        <TD nowrap="nowarp" class="date">${data.date}</TD>
+        <TD nowrap="nowarp" class="count">${data.data}</TD>
+    </TR>
+    #end
+</TABLE>
+</body>
+</html>

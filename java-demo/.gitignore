@@ -1,0 +1,11 @@
+/.project
+/.settings/
+/.idea
+/deploy
+/target
+/build/
+**/node
+**/node_modules
+**/jsdoc
+/**/.idea
+*.iml

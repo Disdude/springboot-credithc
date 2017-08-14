@@ -1,0 +1,41 @@
+##<!DOCTYPE html>
+##<html xmlns="http://www.w3.org/1999/xhtml"
+##      xmlns:th="http://www.thymeleaf.org"
+##      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+##<head>
+##    <title>登录页面 </title>
+##</head>
+##<body>
+##<form th:action="@{/auth/login}" method="post">
+##    <div><label> 用户名 : <input type="text" name="username"/> </label></div>
+##    <div><label> 密  码 : <input type="password" name="password"/> </label></div>
+##    <div><input type="submit" value="登录"/></div>
+##</form>
+##</body>
+##</html>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="utf-8"/>
+    <title>登录首页</title>
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+</head>
+
+<body>
+<div id="mydiv">
+    <form th:action="@{/auth/login}" method="post">
+        <input type="text" name="username" id="loginEmail" value="用户名"/>
+        <input type="password" name="password" id="loginPass" value="密码"/>
+        <input type="submit" name="submit" value="登录"/>
+    </form>
+</div>
+
+<!-- JavaScript includes -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
+
