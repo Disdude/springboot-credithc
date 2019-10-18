@@ -22,7 +22,7 @@
         <java.verison>1.8</java.verison>
         <springfox.version>2.5.0</springfox.version>
         <lts.version>1.7.0</lts.version>
-        <netty.version>4.0.20.Final</netty.version>
+        <netty.version>4.1.42.Final</netty.version>
         <mapdb.version>2.0-beta10</mapdb.version>
         <zkclient.version>0.1</zkclient.version>
     </properties>
